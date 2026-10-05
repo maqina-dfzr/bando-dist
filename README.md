@@ -5,9 +5,7 @@
   </picture>
 </p>
 
-<h1 align="center">Bando</h1>
-
-<h3 align="center">Data Workspace</h3>
+<h1 align="center">Bando - Data Workspace</h1>
 
 <p align="center">
   A fast, native app: connect to your databases, write SQL, and keep working with the answer —

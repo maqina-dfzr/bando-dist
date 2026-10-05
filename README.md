@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/bando-mark-dark.svg">
-    <img src="assets/bando-mark-light.svg" alt="Bando" width="168">
+    <img src="assets/bando-mark-light.svg" alt="Bando" width="320" max-width="100%">
   </picture>
 </p>
 

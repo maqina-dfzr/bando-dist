@@ -7,9 +7,10 @@
 
 <h1 align="center">Bando</h1>
 
+<h3 align="center">Data Workspace</h3>
+
 <p align="center">
-  <strong>A fast, native workspace for your databases.</strong><br>
-  Connect to your databases, write SQL, and keep working with the answer —<br>
+  A fast, native app: connect to your databases, write SQL, and keep working with the answer —
   filter it, join it, chart it, report on it, and hand it to an AI that asks before it writes.
 </p>
 
@@ -19,6 +20,10 @@
   <a href="#databases">Databases</a> ·
   <a href="#your-data-stays-yours">Privacy</a> ·
   <a href="../../issues">Report a problem</a>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/hero.png" alt="Bando: a formatted SQL query joining three tables, and its 2,400-row result in the grid" width="880">
 </p>
 
 ---
@@ -53,6 +58,17 @@ anything writes. Every session runs under a token and cost budget you set.
 
 ## What it does
 
+<table>
+  <tr>
+    <td width="50%"><img src="assets/screenshots/chart.png" alt="A bar chart of monthly revenue, declared in the query by a -- @chart line"><br><sub><b>Charts</b> — offered by the result's shape, written into the query.</sub></td>
+    <td width="50%"><img src="assets/screenshots/diagram.png" alt="The schema diagram of seven tables and their relations"><br><sub><b>Schema diagram</b> — every table, key and relation.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/screenshots/production.png" alt="A production connection asking for confirmation before an UPDATE without WHERE"><br><sub><b>Production</b> — an UPDATE without WHERE stops and asks.</sub></td>
+    <td width="50%"><img src="assets/screenshots/presentation.png" alt="Presentation mode showing e-mail addresses as masked tokens"><br><sub><b>Presentation mode</b> — personal data masked before you share.</sub></td>
+  </tr>
+</table>
+
 | Feature | What you get |
 | --- | --- |
 | **SQL editor** | Autocomplete ranked by your foreign keys, formatting per dialect, errors marked in the gutter, `:named` variables resolved before anything is sent. |
@@ -62,7 +78,7 @@ anything writes. Every session runs under a token and cost budget you set.
 | **Reports** | Plain text files with typed parameters that live in Git and run without the window (`bando report run`). Out come HTML ready to print, Markdown or an Excel workbook, charts included. |
 | **History** | Every run is kept, and any of them goes back into the editor — as its own query, as the script it came from, or into the tab in front. |
 | **Views and routines** | Edit a definition in its own tab and apply it after a side-by-side review against what is on the server now. |
-| **Presentation mode** | Masks values everywhere they go — grid, copy, export, reports, the assistant — before you share your screen. |
+| **Presentation mode** | Masks personal data — e-mails, phone and card numbers, CPF and CNPJ, credentials, and any column you name — in the grid, copies, exports, reports and the assistant, before you share your screen. |
 | **MCP, both ways** | `bando mcp serve` gives your own agent read-only tools on one connection. Other MCP servers plug into Bando's assistant, each approved by the command line it runs. |
 | **Projects** | A project is a folder. Connection definitions and scripts can go into Git; passwords and history stay on your machine. |
 | **Connectivity** | SSH tunnels through your own `ssh` and its config, TLS, client certificates. |
